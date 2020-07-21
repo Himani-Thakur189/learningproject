@@ -1,0 +1,6 @@
+export const Search_Results='Search_Results'
+export const Fetch_Data='Fetch_Data'
+export const Fetch_Success='Fetch_Success'
+export const Fetch_Fail='Fetch_Fail'
+export const Signup_Success='Signup_Success'
+export const Signup_Fail='Signup_Fail'
