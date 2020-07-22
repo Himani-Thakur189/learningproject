@@ -12,11 +12,11 @@ var firebaseConfig = {
   appId: "1:154327863771:web:2fc9c09226b7ad8dfdd7fe",
   measurementId: "G-VPPBV1518D"
 };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
- const storage=firebase.storage()
- const database=firebase.firestore()
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+const storage = firebase.storage()
+const database = firebase.firestore()
 //  const auth=firebase.auth();
- export {
-   storage,database,firebase as default 
- }
+export {
+  storage, database, firebase as default
+}
